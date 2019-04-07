@@ -1,8 +1,8 @@
 <template>
 <el-container>
-    <el-heade>
+    <el-header>
 
-    </el-heade>
+    </el-header>
     <el-main>
 
     </el-main>
