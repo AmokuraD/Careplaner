@@ -84,6 +84,16 @@
           Home
         </a>
       </li>
+      <li>
+        <a @click="goSkill">
+          Skill
+        </a>
+      </li>
+      <li>
+        <a @click="goRecommend">
+          Recommend
+        </a>
+      </li>
     </ul>
   </div>
 </template>
@@ -99,6 +109,12 @@ export default {
   methods:{
     goHome(){
       this.$router.push({path:'/home'})
+    },
+    goSkill(){
+      this.$router.push({path:'/skill'})
+    },
+    goRecommend(){
+      this.$router.push({path:'/recommend'})
     }
   }
 }
