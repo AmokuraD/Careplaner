@@ -1,29 +1,26 @@
 <template>
   <el-container>
-    <el-header>
-    </el-header>
-    <el-container>
-      <el-aside style="width:auto;">
-        <el-button type="primary" icon="el-icon-menu" @click="handleCollapse"></el-button>
-        <el-menu :default-active="activeIndex" @select="handleSelect" class="el-menu-vertical" :collapse="isCollapse"
-          collapse-transition>
-          <el-menu-item class="el-menu-item" v-for="profession in professions" :key="profession.id"
-            :index="profession.id">
-            <img :src="'../static/icon/my-icon'+profession.id+'.png'" class="p_icon">
-            <span slot="title">{{profession.name}}</span>
-          </el-menu-item>
-        </el-menu>
-      </el-aside>
-      <el-main class="el-main">
-        <div id="main_container">
-          <div id="p_container">
-            <el-card class="p_card" v-for="data in professions[activeIndex].datas" :key="data.index" :index="data.index" shadow="hover" >
-              <div @click="goRecommend(data)">{{data}}</div>
-            </el-card>
-          </div>
+    <el-aside style="width:auto;">
+      <el-button id="btn_collapse" type="primary" icon="el-icon-menu" @click="handleCollapse"></el-button>
+      <el-menu :default-active="activeIndex" @select="handleSelect" class="el-menu-vertical" :collapse="isCollapse"
+        collapse-transition>
+        <el-menu-item class="el-menu-item" v-for="profession in professions" :key="profession.id"
+          :index="profession.id">
+          <img :src="'../static/icon/my-icon'+profession.id+'.png'" class="p_icon">
+          <span slot="title">{{profession.name}}</span>
+        </el-menu-item>
+      </el-menu>
+    </el-aside>
+    <el-main class="el-main">
+      <div id="main_container">
+        <div id="p_container">
+          <el-card class="p_card" v-for="data in professions[activeIndex].datas" :key="data.index" :index="data.index"
+            shadow="hover">
+            <div @click="goRecommend(data)">{{data}}</div>
+          </el-card>
         </div>
-      </el-main>
-    </el-container>
+      </div>
+    </el-main>
   </el-container>
 </template>
 <script>
@@ -90,11 +87,11 @@
       handleCollapse() {
         this.isCollapse = !this.isCollapse;
       },
-      goRecommend(profession){
+      goRecommend(profession) {
         this.$router.push({
-          path:'/recommend',
-          query:{
-            profession:profession
+          path: '/recommend',
+          query: {
+            profession: profession
           }
         })
       }
@@ -102,7 +99,7 @@
   }
 
 </script>
-<style>
+<style scoped>
   .el-container {
     height: 100%;
   }
@@ -138,20 +135,26 @@
   }
 
   .p_card {
-    height: 120px;
-    width: 160px;
+    height: 160px;
+    width: 120px;
     margin: 10px;
     border-radius: 10px;
   }
 
   #main_container {
     height: 100%;
+    width: 100%;
   }
 
   #p_container {
+    margin: auto;
+    padding: 0px 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+  }
+
+  #btn_collapse {
+    left: 0px;
   }
 
 </style>
