@@ -12,6 +12,7 @@
             <!-- <p>{{data.title}}</p>
             <p>{{profession}}</p>
             <p>{{name}}</p> -->
+            <Table style="margin-top:120px ;width:auto;align-self: center"></Table>
           </el-col>
         </el-row>
       </el-card>
@@ -33,7 +34,9 @@
   </el-main>
 </template>
 <script>
+  import Table from "./Table";
   export default {
+    components: {Table},
     data() {
       // switch (this.$route.query.profession) {
       //   case "Java":
