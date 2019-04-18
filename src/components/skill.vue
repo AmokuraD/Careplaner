@@ -16,7 +16,7 @@
         <div id="p_container">
           <el-card class="p_card" v-for="data in professions[activeIndex].datas" :key="data.index" :index="data.index"
             shadow="hover">
-            <div @click="goRecommend(data)">{{data}}</div>
+            <div @click="goRecommend(professions[activeIndex].name,data)">{{data}}</div>
           </el-card>
         </div>
       </div>
@@ -87,10 +87,11 @@
       handleCollapse() {
         this.isCollapse = !this.isCollapse;
       },
-      goRecommend(profession) {
+      goRecommend(data,profession) {
         this.$router.push({
           path: '/recommend',
           query: {
+            data:data,
             profession: profession
           }
         })
