@@ -14,19 +14,32 @@
     <el-main class="el-main">
       <div id="main_container">
         <div id="p_container">
-          <el-card class="p_card" v-for="data in professions[activeIndex].datas" :key="data.index" :index="data.index"
+
+         <el-card class="p_card" v-for="data in professions[activeIndex].datas" :key="data.index" :index="data.index"
             shadow="hover">
-            <div @click="goRecommend(professions[activeIndex].name,data)">{{data}}</div>
+            <!--<div @click="goRecommend(professions[activeIndex].name,data)">{{data}}</div>-->
+           <div @click="show=!show">{{data}}</div>
           </el-card>
+
+
         </div>
       </div>
+
+
+        <Table  v-if="!show" style="margin-top:0px; width:auto; align-self: center" ></Table>
+
     </el-main>
+
   </el-container>
 </template>
 <script>
+import Table from "./Table"
   export default {
+    components: {Table},
     data() {
+
       return {
+        show:true,
         professions: [{
           "id": "0",
           "name": "后端开发",
@@ -95,7 +108,9 @@
             profession: profession
           }
         })
-      }
+      },
+
+
     }
   }
 
@@ -143,9 +158,9 @@
   }
 
   #main_container {
-    height: 100%;
+    height: 60%;
     width: 100%;
-  }
+  } /*may cause two scroll bar if not being tackled right*/
 
   #p_container {
     margin: auto;

@@ -11,8 +11,8 @@
           <el-col :span="18">
             <p>{{data.title}}</p>
             <p>{{profession}}</p>
-            <p>{{name}}</p>
-            <!-- <Table style="margin-top:120px ;width:auto;align-self: center"></Table> -->
+            <p>{{name}}</p> -->
+            <!--<Table style="margin-top:120px ;width:auto;align-self: center"></Table>-->
           </el-col>
         </el-row>
       </el-card>
