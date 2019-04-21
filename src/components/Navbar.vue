@@ -1,5 +1,6 @@
 <template>
-  <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" router>
+  <div id="nav">
+  <el-menu :default-active="activeIndex" class="el-menu-demo" background-color="#a6c0fe"  mode="horizontal" @select="handleSelect" router>
     <el-menu-item index="home">Home</el-menu-item>
     <el-menu-item index="skill">Skill</el-menu-item>
     <el-submenu index="3">
@@ -10,6 +11,7 @@
     </el-submenu>
     <el-menu-item index="4">About Us</el-menu-item>
   </el-menu>
+  </div>
 </template>
 <script>
   export default {
@@ -26,3 +28,7 @@
     }
   }
 </script>
+<style>
+
+
+</style>

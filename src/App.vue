@@ -28,6 +28,7 @@
     text-align: center;
     color: #0c0c12;
     margin-top: 0px;
+    background-image: url("https://webgradients.com/public/webgradients_png/008%20Rainy%20Ashville.png");
   }
 
 </style>

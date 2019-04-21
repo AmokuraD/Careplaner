@@ -53,17 +53,18 @@
 
 
   {
-    line-height: 500px
-  ;
+    line-height: 500px;
+
     line-width:500px;
     margin: 0
   ;
   }
   .el-carousel__item:nth-child(2n) {
-    background-color: #bebfad;
+    background-color:#e5e6e1;
+
   }
 
   .el-carousel__item:nth-child(2n+1) {
-    background-color: #e5e6e1;
+    background-color: #fbc2eb;
   }
 </style>
