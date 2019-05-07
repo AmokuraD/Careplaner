@@ -1,21 +1,24 @@
 <template>
   <div id="app">
-    <el-container>
+    <!-- <el-container>
       <el-header>
         <mynavbar></mynavbar>
       </el-header>
       <el-main>
         <router-view />
       </el-main>
-    </el-container>
+    </el-container> -->
+    <Main/>
   </div>
 </template>
 <script>
-  import mynavbar from './components/Navbar.vue'
+  import mynavbar from './components/Navbar.vue';
+  import Main from './components/Main.vue'
   export default {
     name: 'app',
     components:{
-      mynavbar
+      mynavbar,
+      Main
     }
   }
 
@@ -28,7 +31,6 @@
     text-align: center;
     color: #0c0c12;
     margin-top: 0px;
-    background-image: url("https://webgradients.com/public/webgradients_png/008%20Rainy%20Ashville.png");
   }
 
 </style>
