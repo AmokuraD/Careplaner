@@ -1,6 +1,6 @@
 <template>
 <div>
-  Careplanner
+  CarePlanner
 </div>
 </template>
 <script>

@@ -134,11 +134,11 @@
   </div>
 </template>
 <script>
-  import '../assets/js/classie.js';
-  import Home from './Home.vue';
+  import '@/assets/js/classie.js';
+  import Home from '@/components/Home.vue';
   export default {
-    created() {
-     
+    components:{
+      Home
     },
     mounted() {
       /**
@@ -389,6 +389,7 @@
       })(window);
     }
   }
+
 </script>
 <style>
   /* Made with http://icomoon.io/ */

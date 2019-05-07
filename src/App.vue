@@ -1,13 +1,5 @@
 <template>
   <div id="app">
-    <!-- <el-container>
-      <el-header>
-        <mynavbar></mynavbar>
-      </el-header>
-      <el-main>
-        <router-view />
-      </el-main>
-    </el-container> -->
     <Main/>
   </div>
 </template>
