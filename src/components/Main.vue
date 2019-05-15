@@ -3,130 +3,46 @@
     <!-- navigation -->
     <nav class="pages-nav">
       <div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-docu">Documentation</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-manuals">Manuals</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-software">Software</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-custom">Customization &amp; Settings</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-training">Training</a></div>
-      <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-buy">Where
-          to buy</a></div>
-      <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Blog
-          &amp; News</a></div>
-      <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded"
-          href="#page-contact">Contact</a></div>
-      <div class="pages-nav__item pages-nav__item--social">
-        <a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span
-            class="text-hidden">Twitter</span></a>
-        <a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span
-            class="text-hidden">LinkedIn</span></a>
-        <a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span
-            class="text-hidden">Facebook</span></a>
-        <a class="link link--social link--faded" href="#"><i class="fa fa-youtube-play"></i><span
-            class="text-hidden">YouTube</span></a>
-      </div>
+      <div class="pages-nav__item"><a class="link link--page" href="#page-skill">Skill</a></div>
+      <div class="pages-nav__item"><a class="link link--page" href="#page-about">About</a></div>
+      <div class="pages-nav__item"><a class="link link--page" href="#page-1">page-1</a></div>
+      <div class="pages-nav__item"><a class="link link--page" href="#page-2">page-2</a></div>
+      <div class="pages-nav__item"><a class="link link--page" href="#page-3">page-3</a></div>
+      <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-4">page-4</a></div>
+      <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-5">page-5</a></div>
+      <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-6">page-6</a></div>
     </nav>
     <!-- /navigation-->
     <!-- pages stack -->
     <div class="pages-stack">
       <!-- page -->
       <div class="page" id="page-home">
-        <Home/>
+        <Home />
       </div>
       <!-- /page -->
-      <div class="page" id="page-docu">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Documentation</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "We cannot have peace among men whose hearts find delight in killing any living creature." &mdash; Rachel
-            Carson
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/6.jpg" alt="img06" />
+      <div class="page" id="page-skill">
+        <SRContainer/>
       </div>
-      <div class="page" id="page-manuals">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Manuals</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "When you adopt a vegan diet we make a connection, you don't go back, it is not a diet, it is a lifestyle."
-            &mdash; Freelee Frugivore
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/2.jpg" alt="img02" />
+      <div class="page" id="page-about">
+
       </div>
-      <div class="page" id="page-software">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Software &amp; Downloads</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "I decided to pick the diet that I thought would maximize my chances of long-term survival." &mdash; Al Gore
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/3.jpg" alt="img03" />
+      <div class="page" id="page-1">
+        
       </div>
-      <div class="page" id="page-custom">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Customization &amp; Settings</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "You have to make a conscious decision to change for your own well-being, that of your family and your
-            country." &mdash;Bill Clinton
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/4.jpg" alt="img04" />
+      <div class="page" id="page-2">
+        
       </div>
-      <div class="page" id="page-training">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Training &amp; Learning Center</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "The moment I began to understand what was going on with the treatment of animals, it led me more and more
-            in the way of the path I am [on] now, which is a complete vegan." &mdash; Bryan Adams
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/5.jpg" alt="img05" />
+      <div class="page" id="page-3">
+       
       </div>
-      <div class="page" id="page-buy">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Where to buy</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "When people ask me why I don't eat meat or any other animal products, I say, 'Because they are unhealthy
-            and they are the product of a violent and inhumane industry.'" &mdash;
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/6.jpg" alt="img06" />
+      <div class="page" id="page-4">
+        
       </div>
-      <div class="page" id="page-blog">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Blog &amp; News</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "The question is not, 'Can they reason?' nor, 'Can they talk?' but rather, 'Can they suffer?" &mdash; Jeremy
-            Bentham
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/1.jpg" alt="img01" />
+      <div class="page" id="page-5">
+        
       </div>
-      <div class="page" id="page-contact">
-        <header class="bp-header cf">
-          <h1 class="bp-header__title">Contact</h1>
-          <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a
-              href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-          <p class="info">
-            "Man is the only animal that can remain on friendly terms with the victims he intends to eat until he eats
-            them." &mdash; Samuel Butler
-          </p>
-        </header>
-        <img class="poster" src="../../static/images/4.jpg" alt="img04" />
+      <div class="page" id="page-6">
+        
       </div>
     </div>
     <!-- /pages-stack -->
@@ -134,24 +50,20 @@
   </div>
 </template>
 <script>
+  import '@/assets/js/modernizr-custom.js';
   import '@/assets/js/classie.js';
   import Home from '@/components/Home.vue';
+  import SRContainer from '@/components/SRContainer.vue';
+  import Skill from '@/components/Skill.vue';
+  import Recommend from '@/components/Recommend.vue';
   export default {
-    components:{
-      Home
+    components: {
+      Home,
+      SRContainer,
+      Skill,
+      Recommend
     },
     mounted() {
-      /**
-       * main.js
-       * http://www.codrops.com
-       *
-       * Licensed under the MIT license.
-       * http://www.opensource.org/licenses/mit-license.php
-       *
-       * Copyright 2015, Codrops
-       * http://www.codrops.com
-       */
-      // ;
       (function (window) {
         'use strict';
 
@@ -221,7 +133,7 @@
               } else {
                 // invisible pages in the stack
                 page.style.WebkitTransform = 'translate3d(0,75%,-300px)';
-                page.style.transform = 'translate3d(0,75%,-3500px)';
+                page.style.transform = 'translate3d(0,75%,-350px)';
               }
             } else {
               classie.remove(page, 'page--inactive');
@@ -392,16 +304,11 @@
 
 </script>
 <style>
-  /* Made with http://icomoon.io/ */
-
-  /* Resets */
-
   *,
   *:after,
   *:before {
     box-sizing: border-box;
   }
-
 
   /* Helper classes */
 
@@ -414,28 +321,6 @@
   .cf:after {
     clear: both;
   }
-
-
-  /* Main styles */
-
-  body {
-    margin: 0;
-    color: #cecece;
-    background: #1d1e21;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  a {
-    text-decoration: none;
-    color: #5c5edc;
-    outline: none;
-  }
-
-  a:hover {
-    color: #fff;
-  }
-
 
   /* Blueprint header */
 
@@ -533,50 +418,8 @@
     background: #5c5edc;
   }
 
-  .bp-icon:after {
-    font-family: 'bpicons';
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-    text-transform: none;
-    color: #5c5edc;
-    -webkit-font-smoothing: antialiased;
-    speak: none;
-  }
-
-  .bp-nav .bp-icon:after {
-    line-height: 2.4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-indent: 0;
-  }
-
   .bp-nav a:hover:after {
     color: #fff;
-  }
-
-  .bp-icon--next:after {
-    content: '\e000';
-  }
-
-  .bp-icon--drop:after {
-    content: '\e001';
-  }
-
-  .bp-icon--archive:after {
-    content: '\e002';
-  }
-
-  .bp-icon--about:after {
-    content: '\e003';
-  }
-
-  .bp-icon--prev:after {
-    content: '\e004';
   }
 
   @media screen and (max-width: 40em) {

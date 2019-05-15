@@ -4,13 +4,13 @@
   </div>
 </template>
 <script>
-  import mynavbar from './components/Navbar.vue';
-  import Main from './components/Main.vue'
+  import Main from './components/Main.vue';
+  import Recommend from './components/Recommend.vue'
   export default {
     name: 'app',
     components:{
-      mynavbar,
-      Main
+      Main,
+      Recommend
     }
   }
 

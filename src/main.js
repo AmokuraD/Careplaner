@@ -3,21 +3,24 @@
 import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import echarts from 'echarts'
 import App from './App'
 import router from './router'
-import './assets/icon/iconfont.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import store from './store'
+import simplebar from 'simplebar-vue'
+import 'simplebar/dist/simplebar.css'
 
+axios.defaults.baseURL = 'http://kaa2vu.natappfree.cc';
+// axios.defaults.withCredentials = true;
 Vue.config.productionTip = false
 Vue.use(ElementUI)
-Vue.use(echarts)
-Vue.use(VueAxios,axios)
+Vue.use(VueAxios, axios)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

@@ -3,13 +3,11 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Skill from '@/components/Skill'
 import Recommend from '@/components/Recommend'
-import Table from '@/components/Table'
 Vue.use(Router)
 
 export default new Router({
   routes: [{
-    path: '/',
-    redirect: '/home'
+    path: '/'
   }, {
     path: '/home',
     name: 'Home',
@@ -22,10 +20,5 @@ export default new Router({
     path: '/recommend',
     name: 'Recommend',
     component: Recommend
-  },{
-    path:'./table',
-    name:'Table',
-    component:Table
-  }
-  ]
+  }]
 })
