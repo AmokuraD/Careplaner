@@ -1,0 +1,22 @@
+.NET   数据库   数据处理   数据挖掘   web开发   .net框架   Javaweb   分布式计算   HTML   JQuery   json
+ASP   数据库   架构设计   分布式   WCF   C#   数据安全   HTML   .net开发   C#   MVC
+C#   数据库   Linux   网络   数据通讯   MVVM   C#   分布式   Socket网络编程   单元测试
+C++   架构设计   数据库   算法   设计模式   GUI开发   C++   Linux   图像处理   GIS   QT
+C   数据库   算法   数据结构   linux   脚本语言   C   人工智能   Socket网络编程   QT   网络协议
+Delphi   数据库   WindowsAPI   设计模式   单元测试   数据结构   Delphi   多线程   VCL   网络编程   模块测试
+Docker   运维   网络   虚拟化   架构设计   数据库   Docker    Golang   分布式   Linux   K8S
+Go   数据库   算法   服务端   架构设计    Linux   C++   Go语言   多线程   网络协议
+Hadoop    集群   数据仓库   架构设计   数据处理   YARN   HBase   HDFS   Hive   数据挖掘   MapReduce
+HBase   数据库   数据仓库   架构设计   HDFS   分布式    Linux   Hadoop生态   HBase   Hive   Python
+Java   数据库   设计模式   架构设计   分布式   单元测试   MVC   XML   Java   J2EE   JavaWeb
+Node.JS   数据库   架构设计   设计模式   javascript   分布式   Express   KOA   Node.js   分布式计算   React
+Openstack   运维   虚拟化   架构设计   Openstack   Linux   分布式   集群   网络协议   Python   Java
+Php   数据库   架构设计   数据结构   javascript   MVC   HTML   CSS   Jquery   PHP   bootstrap
+Python   数据库   架构设计   数据结构   算法   web框架   JavaScript    Python   Django   Linux   网络协议
+Ruby   数据库   架构设计   网络   服务端   运维   Ruby    Rails   MVC   AWS   KVM
+Spark   数据处理   算法   数据挖掘   分布式   分布式计算   Java   Scala   Hadoop   Spark   聚类
+全栈工程师   数据库   全栈   区块   架构设计   web开发   前端框架   MVC   聚类   分布式计算   设计模式
+推荐系统   算法   数据结构   数据挖掘   分布式   搜索引擎    Python   Java   Spark   C++   Hadoop
+搜索引擎   算法   排序   架构设计   Java    Python   开源搜索引擎   分布式   搜索算法   数据结构   数据挖掘
+数据挖掘   数据挖掘   算法   建模   数据处理   聚类   神经网络   机器学习   决策树   Python   JAVA
+自然语言处理   算法   图谱   语义   分词   数据挖掘   机器学习    模式识别   Python   人工智能   spark
