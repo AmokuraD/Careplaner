@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whu.dao.MfDao">  
+    <select id="getMf" parameterType="String" resultType="mf">
+        select skill1,skill2,skill3,skill4,skill5,skill6,skill7,skill8,skill9,skill10 from mf where name = #{name}
+    </select>   
+</mapper>

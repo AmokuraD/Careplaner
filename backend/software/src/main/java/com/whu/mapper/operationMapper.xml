@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whu.dao.OperationDao">  
+    <select id="getOperation" parameterType="String" resultType="operation">
+        select skill1,skill2,skill3,skill4,skill5,skill6,skill7,skill8,skill9,skill10 from operation where name = #{name}
+    </select>   
+</mapper>
